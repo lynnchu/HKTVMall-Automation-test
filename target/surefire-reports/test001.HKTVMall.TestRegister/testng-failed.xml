@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [test001.HKTVMall.TestRegister]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="test001.HKTVMall.TestRegister">
+        <methods>
+          <include name="intial"/>
+          <include name="testRegister"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- test001.HKTVMall.TestRegister -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [test001.HKTVMall.TestRegister] -->

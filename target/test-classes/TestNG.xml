@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+<!-- parameter name = "TestData" value="\Tools\testdata.properties"/-->
+<!-- parameter name = "DataInput" value="\Tools\dataInput.properties"/-->
+<!-- parameter name = "ObjectStore" value="\Tools\objectStore.properties"/-->
+<!-- 
+ <test verbose="2" name="Firefox test">
+  <parameter name = "browser" value="Firefox"/>
+    <classes>
+      <class name ="TestHandlingDateTime.DateTimePickerTestCase" />
+    </classes>
+  </test> 
+   -->
+   
+<!--  
+ <test verbose="2" name="chrome test">
+  <parameter name = "browser" value="Chrome"/>
+    <classes>
+     <  class name="webdriver_common_API.TestCase"/>
+     < class name="TestData.testData"/>
+     < class name="autoItTest.AlipayTest"/>
+     <  class name ="MavenTest.TestCases.TestCase_Login163" /> 
+    </classes>
+  </test> 
+-->  
+  <test verbose="2" name="Default test">
+    <classes>
+      <!--class name="test001.HKTVMall.TestRegisterPassed"/-->
+      <!--class name="test001.HKTVMall.TestRegisterFailed"/-->
+      <!--class name="test002.HKTVMall.TestLoginPassed"/-->
+      <!--class name="test002.HKTVMall.TestLoginFailed"/-->
+      <!--class name="test003.HKTVMall.testGoToMainCategory"/-->
+      <!-- class name="test004.HKTVMall.testQuickView"/-->
+      <!--class name = "test005.HKTVMall.testSaveToWishlistBeforeLogin"/-->
+      <class name = "test005.HKTVMall.testSaveToWishlistAfterLogin"/>
+    </classes>
+  </test> 
+  
+</suite> 
